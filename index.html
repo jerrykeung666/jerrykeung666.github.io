@@ -92,11 +92,12 @@
       <tr onmouseout="hypernerf_stop()" onmouseover="hypernerf_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
-            <div class="two" id='hypernerf_image'><video  width=100% height=100% muted autoplay loop>
+            <!-- <div class="two" id='hypernerf_image'><video  width=100% height=100% muted autoplay loop> -->
+            <div class="two" id='hypernerf_image'><video  width="320" height="240" muted autoplay loop>
             <source src="videos/tracking.mp4" type="video/mp4">
             Your browser does not support the video tag.
             </video></div>
-            <img src='images/landlord.png' width="160">
+            <img src='images/landlord.png' width="320" height="240">
           </div>
           <script type="text/javascript">
             function hypernerf_start() {
@@ -109,7 +110,8 @@
             hypernerf_stop()
           </script>
         </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
+        <td style="padding:20px;width:75%;vertical-align:middle"></td>
+          <td width="75%" valign="top">
           <!-- <a href="https://hypernerf.github.io/"> -->
             <papertitle>Multiple People Tracking System</papertitle>
           <strong>Wei Jiang</strong>, Chongxuan Chen, Yujie Lin
