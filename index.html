@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  <title>Wei Jiang</title>
+  <title>Wei Jiang 姜唯</title>
   <meta name="author" content="Jon Barron">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,9 +17,13 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:63%;vertical-align:middle">
               <p style="text-align:center">
-                <name>Wei Jiang</name>
+                <name>Wei Jiang 姜唯</name>
               </p>
+<<<<<<< HEAD
               <p>Hi, this is Wei Jiang, a first-year M.S. in computer science student at <a href="https://illinois.edu/">University of Illinois Urbana-Champaign</a>.
+=======
+              <p>Hi, this is Wei Jiang, a senior undergraduate student at <a href="http://ee.zju.edu.cn/englishee/main.htm">College of Electrical Engineering</a>, <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>, and an incoming MS student at <a href="https://cs.illinois.edu/">the Dept. of Computer Science of UIUC</a>.
+>>>>>>> 70df080ffd9a799771deb63c1d8bb872f4c2c120
               </p>
               <p>Previously, I worked as a research intern at the Machine Learning Group of <a href="https://illinois.edu/">Microsoft Research Asia</a>.
               </p>
@@ -28,7 +32,8 @@
               <p style="text-align:center">
                 <a href="mailto:weijiang666@zju.edu.cn">Email</a> &nbsp/&nbsp
                 <a href="https://github.com/jerrykeung666">GitHub</a> &nbsp/&nbsp
-                <a href="https://cn.linkedin.com/in/wei-jiang-b364121ab">LinkedIn</a>
+                <a href="https://cn.linkedin.com/in/wei-jiang-b364121ab">LinkedIn</a> &nbsp/&nbsp
+                <a href="https://twitter.com/weijiang666">Twitter</a>
               </p>
           </td>
           <td style="padding:2.5%;width:40%;max-width:40%">
@@ -39,9 +44,28 @@
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr>
         <td style="padding:20px;width:100%;vertical-align:middle">
+          <heading>Education</heading>
+          <p>
+            <strong>University of Illinois Urbana-Champaign</strong>, Aug. 2022 - May 2024 (Expected)
+          </p>
+          <p>
+            M.S. in Computer Science
+          </p>
+          <p>
+            <strong>Zhejiang University</strong>, Sept. 2018 - June 2022
+          </p>
+          <p>
+            B.Eng in Electrical Engineering and Automation
+          </p>
+        </td>
+      </tr>
+    </tbody></table>
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+        <td style="padding:20px;width:100%;vertical-align:middle">
           <heading>Research</heading>
           <p>
-            I am interested in embodied AI, which leverages 3D vision and reinforcement learning methods to enable robots to acquire skills to interact with the real world.
+            My research interest lies in embodied AI, which leverages 3D vision and reinforcement learning methods to enable robots to acquire skills to interact with the real world.
           </p>
         </td>
       </tr>
@@ -51,14 +75,85 @@
       <td style="padding:20px;width:100%;vertical-align:middle">
         <heading>Projects</heading>
         <p>
+          This part mainly includes course projects and extracurricular projects.
         </p>
       </td>
+      </tr>
+    </tbody></table>
+    <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/landlord.png" width="320" height="180"></td>
+        <td width="75%" valign="top">
+          <!-- <a href="https://github.com/jerrykeung666/20-21-zju-OOP-Project">Landlord Game</a> -->
+          <papertitle>Landlord Game</papertitle>
+          <p>
+          <strong>Wei Jiang</strong>, Xuyan Hu, Chenzhen Ye
+          </p>
+          <a href="https://github.com/jerrykeung666/20-21-zju-OOP-Project">GitHub Link</a>
+          <p>
+            Object-oriented Programming Course Project
+          </p>
+          <!-- <br><br>
+          <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
+          <br><br>
+          <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a> -->
+        </td>
+      </tr>
+      <!-- <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/landlord.png" width="320" height="240"></td>
+        <td width="75%" valign="top">
+          <p>
+            Multiple People Tracking System
+          </p>
+          <a href="https://github.com/jerrykeung666/20-21-zju-OOP-Project">Landlord Game</a> 
+          <br><br>
+          <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
+          <br><br>
+          <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
+        </td>
+      </tr> -->
+      <tr onmouseout="hypernerf_stop()" onmouseover="hypernerf_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <!-- <div class="two" id='hypernerf_image'><video  width=100% height=100% muted autoplay loop> -->
+            <div class="two" id='hypernerf_image'><video  width="320" height="180" muted autoplay loop>
+            <source src="videos/tracking.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video></div>
+            <img src='images/tracking.png' width="320" height="180">
+          </div>
+          <script type="text/javascript">
+            function hypernerf_start() {
+              document.getElementById('hypernerf_image').style.opacity = "1";
+            }
+
+            function hypernerf_stop() {
+              document.getElementById('hypernerf_image').style.opacity = "0";
+            }
+            hypernerf_stop()
+          </script>
+        </td>
+        <!-- <td style="padding:20px;width:75%;vertical-align:middle"></td> -->
+          <td width="75%" valign="top">
+          <!-- <a href="https://hypernerf.github.io/"> -->
+            <papertitle>Multiple People Tracking System</papertitle>
+          <p>
+            <strong>Wei Jiang</strong>, Chongxuan Chen, Yujie Lin
+          </p>
+          <!-- <a href="https://hypernerf.github.io/">project page</a>
+          /
+          <a href="https://arxiv.org/abs/2106.13228">arXiv</a>
+          <p></p>
+          <p>Applying ideas from level set methods to NeRF lets you represent scenes that deform and change shape.</p> -->
+        </td>
       </tr>
     </tbody></table>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr>
       <td style="padding:20px;width:100%;vertical-align:middle">
-        <heading>Honors</heading>
+        <heading>Honors & Awards</heading>
+        <p>Zhejiang Province Excellent Undergraduate, top 5% of College of Electrical Engineering, Zhejiang University, 2022
+        </p>
         <p>Guoqiang Scholarship, 1 among 300 students of College of Electrical Engineering, Zhejiang University, 2020
         </p>
         <p>National Scholarship, top 2% of College of Electrical Engineering, Zhejiang University, 2020
@@ -66,6 +161,19 @@
       </td>
       </tr>
     </tbody></table>
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:center;font-size:small;">
+                Design and source code from <a href="https://jonbarron.info/">Jon Barron's website</a>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
 </body>
 
 </html>
